@@ -17,6 +17,6 @@ docker login
 
 # 이미지 받아오기
 docker pull carrotfarm/edu-test-php
-docker run -d -p 80:80 -v /hoem/Docker-Practice/Project:/var/www/html
+docker run -d -p 80:80 -v /hoem/ec2-user/Docker-Practice/Project:/var/www/html
 
 </pre>
